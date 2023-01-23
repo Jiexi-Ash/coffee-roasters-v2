@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Fraunces:opsz,wght@9..144,900&display=swap");
+
+@layer body {
+  body {
+    @apply bg-lightCream font-barlow text-gray-900;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply w-full rounded-md bg-darkCyan py-4 px-8 font-Fraunces  font-black text-lightCream transition duration-300 ease-in-out hover:bg-[#66D2CF];
+  }
+  .link {
+    @apply font-barlow text-xs font-bold uppercase leading-4 tracking-[0.92px] text-cusGray transition duration-300 ease-in-out hover:text-darkGreyBlue;
+  }
+  .footer-link {
+    @apply cursor-pointer pb-6 font-barlow text-xs uppercase tracking-[0.92px] text-cusGray transition duration-300 ease-in-out hover:text-white lg:pb-0;
+  }
+}
