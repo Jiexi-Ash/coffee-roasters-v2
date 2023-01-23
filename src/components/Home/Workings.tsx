@@ -1,4 +1,4 @@
-import exp from "constants";
+import Link from "next/link";
 import React from "react";
 
 function Workings() {
@@ -61,7 +61,9 @@ function Workings() {
         </div>
 
         <div className="max-w-[250px]">
-          <button className="btn text-2xl">Create your plan</button>
+          <button className="btn text-2xl">
+            <Link href="/subscribe">Create your plan</Link>
+          </button>
         </div>
       </div>
     </section>

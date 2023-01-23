@@ -1,8 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import Icon from "../../../public/assets/home/mobile/home-icon.png";
-import IconHamburger from "../../../public/assets/shared/mobile/icon-hamburger.svg";
-
+import Link from "next/link";
 function Hero() {
   return (
     <div className="mx-6 md:mx-10 lg:mx-20 ">
@@ -20,7 +17,7 @@ function Hero() {
           </div>
           <div className="mt-10 lg:px-20">
             <button type="button" className="btn text-[18px]">
-              Create your plan
+              <Link href="/subscribe">Create your plan</Link>
             </button>
           </div>
         </div>
