@@ -39,6 +39,7 @@ function Navbar({ showModal, setShowModal }: NavbarProps) {
           className="cursor-pointer md:hidden"
           onClick={() => setShowModal(true)}
         >
+          {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment */}
           <Image src={IconHamburger} alt="icon" width={16} height={15} />
         </div>
 
@@ -72,6 +73,7 @@ function Navbar({ showModal, setShowModal }: NavbarProps) {
               className="cursor-pointer md:hidden"
               onClick={() => setShowModal(false)}
             >
+              {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment */}
               <Image src={IconClose} alt="icon" width={16} height={15} />
             </div>
           </div>

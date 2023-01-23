@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import React from "react";
 import Image from "next/image";
 import IconCoffeeBean from "../../../public/assets/home/desktop/icon-coffee-bean.svg";
