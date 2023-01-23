@@ -28,6 +28,7 @@ function Provide() {
               width={80}
               height={80}
               className="object-cover object-center"
+              priority
             />
 
             <div className="mt-14 mb-[50px] text-center md:text-left lg:text-center">
@@ -48,6 +49,7 @@ function Provide() {
               width={80}
               height={80}
               className="object-cover object-center"
+              priority
             />
 
             <div className="mt-14 mb-[50px] text-center md:text-left lg:text-center">
@@ -68,6 +70,7 @@ function Provide() {
               width={80}
               height={80}
               className="object-cover object-center"
+              priority
             />
 
             <div className="mt-14 mb-[50px] text-center md:text-left lg:text-center">

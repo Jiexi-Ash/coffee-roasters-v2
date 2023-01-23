@@ -61,9 +61,9 @@ function Workings() {
         </div>
 
         <div className="max-w-[250px]">
-          <button className="btn text-2xl">
-            <Link href="/subscribe">Create your plan</Link>
-          </button>
+          <Link href="/subscribe" className="btn text-2xl">
+            Create your plan
+          </Link>
         </div>
       </div>
     </section>

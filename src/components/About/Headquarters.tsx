@@ -15,7 +15,13 @@ function Headquarters() {
 
         <div className="flex flex-col md:flex-row md:space-x-24 lg:space-x-48">
           <div className="mt-[72px] flex flex-col items-center md:items-start">
-            <Image src={UkShape} alt="uk shape" width={40} height={50} />
+            <Image
+              src={UkShape}
+              alt="uk shape"
+              width={40}
+              height={50}
+              priority
+            />
 
             <div className="mt-12 text-center md:text-left">
               <h3 className="font-Fraunces text-[28px] font-black text-darkGreyBlue md:text-2xl">
@@ -32,7 +38,13 @@ function Headquarters() {
           </div>
 
           <div className="mt-[72px] flex flex-col items-center md:items-start">
-            <Image src={CanadaShape} alt="uk shape" width={40} height={50} />
+            <Image
+              src={CanadaShape}
+              alt="uk shape"
+              width={40}
+              height={50}
+              priority
+            />
 
             <div className="mt-12 text-center md:text-left">
               <h3 className="font-Fraunces text-[28px] font-black text-darkGreyBlue md:text-2xl">
@@ -49,7 +61,13 @@ function Headquarters() {
           </div>
 
           <div className="mt-[72px] flex flex-col items-center md:items-start">
-            <Image src={AusShape} alt="uk shape" width={40} height={50} />
+            <Image
+              src={AusShape}
+              alt="uk shape"
+              width={40}
+              height={50}
+              priority
+            />
 
             <div className="mt-12 text-center md:text-left">
               <h3 className="font-Fraunces text-[28px] font-black text-darkGreyBlue md:text-2xl">

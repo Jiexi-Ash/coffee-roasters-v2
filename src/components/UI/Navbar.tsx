@@ -32,6 +32,7 @@ function Navbar({ showModal, setShowModal }: NavbarProps) {
             width={160}
             height={18}
             className="cursor-pointer"
+            priority
           />
         </Link>
 
@@ -66,6 +67,7 @@ function Navbar({ showModal, setShowModal }: NavbarProps) {
                 width={160}
                 height={18}
                 className="cursor-pointer"
+                priority
               />
             </Link>
 

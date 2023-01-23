@@ -16,9 +16,9 @@ function Hero() {
             </p>
           </div>
           <div className="mt-10 lg:px-20">
-            <button type="button" className="btn text-[18px]">
-              <Link href="/subscribe">Create your plan</Link>
-            </button>
+            <Link className="btn text-[18px]" href="/subscribe">
+              Create your plan
+            </Link>
           </div>
         </div>
       </div>

@@ -14,12 +14,14 @@ function Quality() {
             alt="quality"
             fill={true}
             className="rounded-lg object-cover md:hidden"
+            priority
           />
           <Image
             src={ImageQualityTablet}
             alt="quality"
             fill={true}
             className="hidden rounded-lg object-cover md:block"
+            priority
           />
         </div>
         <div className="h-[509px] w-full max-w-[327px] rounded-lg bg-darkGreyBlue px-6 pt-32  md:max-w-full md:pt-56">
@@ -57,6 +59,7 @@ export const QualityDesktop = () => {
               alt="quality"
               className="rounded-lg object-cover object-center"
               fill={true}
+              priority
             />
           </div>
         </div>
