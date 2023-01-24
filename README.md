@@ -51,8 +51,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://coffee-roasters-v2-9ouqx3ywz-jiexi-ash.vercel.app/)
+- Solution URL: [View Solution](https://www.frontendmentor.io/solutions/coffeeroasters-subscription-site-vYXyYcwJkO)
+- Live Site URL: [Preview Site](https://coffee-roasters-v2-9ouqx3ywz-jiexi-ash.vercel.app/)
 
 ## My process
 
